@@ -1,0 +1,122 @@
+#layoutSidenav_content {
+
+  /* background-image:url("../assets/imgs/piocha_5.png"); */
+
+
+
+
+  /* background-image:url("../../../../assets/img/piocha_5.png"); */
+
+  /* background-image:url("/Prearribo/assets/imgs/piocha_5.png");  */
+
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: contain;
+
+  background-color: #ffffff;
+
+  min-height: 100% !important;
+
+  margin-bottom: 100px;
+
+  clear:both;
+
+}
+/* body{
+   
+    display: flex;
+    flex-direction: column;
+} */
+
+/*
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  float: right;
+
+} */
+
+/* * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  #wrapper {
+    min-height: 100%;
+    margin-bottom: -142px; /* equal to footer height */
+  /* }
+  #wrapper:after {
+    content: "";
+    display: block;
+  }
+  footer, #wrapper:after {
+    height: 142px; 
+  }
+ 
+ */ 
+
+  /* footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 0px;
+    width: 88vw;
+    height: auto;
+  
+
+    
+  }
+
+  .sidebar{
+    margin-top: 0;
+    margin-left: 0;
+    display:  flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60vh;
+  }
+
+  .content {
+
+    margin-top: 20px;
+    margin-left: 150px;
+    position: relative;
+    
+
+
+   
+  }
+
+  header{
+
+    margin-bottom: 0px;
+  }
+
+
+   html,
+body {
+  height: 100%;
+} */
+
+/*
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100vw;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+} */

@@ -1,0 +1,159 @@
+
+#colbutton {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+mat-table {
+display: table;
+margin:0 auto;
+
+}
+
+#butpdf {
+
+  float: left;
+}
+
+#nomsel {
+  height: 30px;
+  max-width: 230px;
+
+}
+
+.mat-row {
+  flex-direction: column;
+  align-items: center;
+}
+
+#datamain {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  padding: 10px;
+
+}
+
+#loadingYear {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+#formumain {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 0;
+  padding: 5px;
+
+  .col-4 {
+    width: 30% !important;
+
+  }
+
+}
+
+#msn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-left: 22%;
+  margin-right: 8%;
+  margin-top: 0;
+  padding: 5px;
+  h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: .009375em;
+    margin: 1px 0 1px 1px;
+}
+  }
+#msnnom{
+  h4{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: .03125em;
+    margin: 0 0 1px;
+  }
+ 
+}
+
+.prevSelect {
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  td{
+    font-size: 12px;
+  }
+  tr.selected {
+    background-color: #a6e1fa;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+}
+
+
+
+.mat-column-monto {
+
+  flex: none;
+  width: 175px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .col-md,
+  .col-3,
+  .col-sm-4,
+  .container {
+
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+@media (min-width:480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width:600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width:801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {}
+

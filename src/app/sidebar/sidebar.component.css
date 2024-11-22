@@ -1,0 +1,32 @@
+
+/* mat-sidenav {
+    
+    width: 60px;
+    border-right: 10px;
+    background: #002b5c;
+    color: #154360;
+    
+    padding: 16px;
+    text-align: center;
+  } */
+  
+  .content {
+    height: 94vh;
+    border-radius: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    background-color: #0B5580;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 130px;
+  
+    font-size: 2rem;
+    color: lightgray;
+   
+  }
+/*   
+  mat-sidenav-container {
+    position: absolute;
+    height: 100vh;
+  } */

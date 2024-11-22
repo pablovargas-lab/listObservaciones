@@ -1,0 +1,45 @@
+/* mat-header-cell{
+
+} */
+
+mat-cell{
+
+  width:200px;
+
+}
+
+mat-cell div{
+    max-width: 60%; 
+    overflow: hidden;
+}
+
+.mat-column-Observaciones {
+    /* min-width: 50px; */
+    max-width: 400px; 
+   width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mat-column-FechadeIngreso {
+    min-width: 50px;
+    max-width: 150px;
+   width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .mat-column-RutUsuario {
+    min-width: 50px;
+    max-width: 150px;
+   width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* mat-table{
+
+    width: 100%;
+  } */

@@ -1,0 +1,88 @@
+<!-- <header class="head-titulo">
+<h2>Sistema De Recaudaciones</h2>
+<h4>Señalización Marítima</h4>
+</header> -->
+<!-- 
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+  
+    <a class="navbar-brand ps-3 text-uppercase fw-bold" [routerLink]="['/home-main/']">Sistema De Recaudaciones</a>
+    
+    <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+      <div class="input-group">
+      
+      </div>
+    </form>
+    
+    <div id ="sesion" class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+          <i class="fas fa-user fa-fw"></i> {{nombre}}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="https://fidesarrollo.dgtm.cl/auth2/login/68/0/0"><button class="dropdown-item text-white bg-danger" (click)="cerrarSesion()">Cerrar Sesión</button></a>
+        
+        </div>
+      </div>
+</nav> -->
+
+<!DOCTYPE html>
+<!-- <div class="header">            
+  <div class="container logo">
+    <div class="row row-cols-4 ">
+      <div class="col-2 header-left " >
+        <div class="col-2 header-left " >
+        <img src="/assets/img/logo_dgtm_tecmar.png" />
+      </div>
+      </div>
+      <div class="col-2"></div>
+      <div class="col-5">
+        <h1 type="button" onclick="window.location.reload();">Reporte de OOII/Solicitudes</h1>
+        <h1 type="button" onclick="window.location.reload();">SIAN de Recepción y Despacho</h1>
+      </div>
+      <div class="col-3">
+        <div class="header-right">
+          <div id="sesion" class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" style="position: absolute;" type="button"
+              id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user fa-fw"></i> {{nombre}}
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+              <li> <small> {{descripcion}}</small></li>
+              <li>
+                <hr class="dropdown-divider"> <a class="dropdown-item"
+                  href="https://fidesarrollo.dgtm.cl/auth2/login/68/0/0"><button
+                    class="dropdown-item text-white bg-danger" (click)="cerrarSesion()">Cerrar Sesión</button></a>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<header>
+  <div class="logo">
+    <img src="/assets/img/logo_dgtm_tecmar.png" alt="Logo">
+  </div>
+  <div class="title">
+    <h1 type="button" onclick="window.location.reload();">Reporte de OOII/Solicitudes SIAN de Recepción y Despacho</h1>
+    <!-- <h1 type="button" onclick="window.location.reload();">SIAN de Recepción y Despacho</h1> -->
+  </div>
+  <div class="button">
+    <div id="sesion" class="dropdown">
+      <button class="btn btn-primary dropdown-toggle;" type="button"
+        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-user fa-fw"></i> {{nombre}}
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <li> <small> {{descripcion}}</small></li>
+        <li>
+          <hr class="dropdown-divider"> <a class="dropdown-item"
+            href="https://orion.directemar.cl/auth2/login/68/1/0"><button
+              class="dropdown-item text-white bg-danger" (click)="cerrarSesion()">Cerrar Sesión</button></a>
+        </li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+</header>

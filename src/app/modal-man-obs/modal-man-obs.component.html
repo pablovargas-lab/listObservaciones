@@ -1,0 +1,24 @@
+<div class="modal-header">
+    <div *ngIf="SegunTipo; else tooii">
+        <h4 class="modal-title">Agregar Observación para Solicitud N°{{folio}} </h4>
+      </div>
+      <ng-template #tooii>
+        <h4 class="modal-title">Agregar Observación para Orden de Ingreso N° {{folio}}</h4>
+      </ng-template>
+    <button type="button" class="close" aria-label="Close" (click)="closeModal()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <form>
+        <textarea #textarea id="texto" [(ngModel)]="ingObs" maxlength ="500" [ngModelOptions]="{standalone: true}" rows="4" cols="50"
+            placeholder="Observación..."></textarea>
+    </form>
+    <div *ngIf="ingObs === ''" class="error">El campo de texto es obligatorio</div>
+    <div class="error">Cantidad máxima de caracteres: 500</div>
+
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-primary" (click)="enviarObs()">Guardar</button>
+    <button type="button" class="btn btn-secondary" (click)="closeModal()">Cerrar</button>
+</div>
